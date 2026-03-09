@@ -4,13 +4,16 @@
   "description": "folder rahasia untuk belajar js",
   "license": "ISC",
   "author": "rani",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3",
+    "react-router-dom": "^7.13.1"
   }
 }
